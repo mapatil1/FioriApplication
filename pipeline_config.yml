@@ -52,9 +52,9 @@ stages:
 
   productionDeployment:
     cfTargets:
-      - org: 'P2002014580trial_trial'
+      - org: 'P2001944614trial_trial'
         space: 'dev'
         apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
-        appName: 'Jenkins'
+        appName: 'FioriApplication'
         manifest: 'manifest.yml'
         credentialsId: 'CF-DEPLOY'
