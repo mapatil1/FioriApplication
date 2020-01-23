@@ -19,7 +19,7 @@ String pipelineVersion = "master"
 
 node {
     deleteDir()
-    sh "git clone --depth 1 https://github.com/anil0349/Jenkins-pipeline.git -b ${pipelineVersion} pipelines"
+    sh "git clone --depth 1 https://github.com/mapatil1/SDK-Pipeline.git -b ${pipelineVersion} pipelines"
     load './pipelines/s4sdk-pipeline.groovy'
 }
 
